@@ -1,10 +1,10 @@
 var HelloWorld = (function () {
-    function HelloWorld(firstName, lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+    function HelloWorld(yourFirstName, yourLastName) {
+        this.yourFirstName = yourFirstName;
+        this.yourLastName = yourLastName;
     }
     HelloWorld.prototype.sayHello = function () {
-        console.log('Hello World!' + ' My name is ' + this.firstName + ' ' + this.lastName);
+        console.log('Hello World!' + ' My name is ' + this.yourFirstName + ' ' + this.yourLastName + '.');
     };
     return HelloWorld;
 })();
