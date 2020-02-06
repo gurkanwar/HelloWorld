@@ -4,7 +4,7 @@ var HelloWorld = (function () {
         this.yourLastName = yourLastName;
     }
     HelloWorld.prototype.sayHello = function () {
-        console.log('Hello World!' + ' My name is ' + this.yourFirstName + ' ' + this.yourLastName);
+        console.log('Hello World!' + ' My name is ' + this.yourFirstName + ' ' + this.yourLastName + '.');
     };
     return HelloWorld;
 })();
